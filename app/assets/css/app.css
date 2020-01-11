@@ -3,15 +3,58 @@
 }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans;
+  font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0.5rem 0 1rem;
+.wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+section.main{
+  margin: 4rem 0 1rem;
+  max-width: 800px;
+}
+
+section.projects{
+  margin: 4rem 0 1rem;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 26px;
+}
+
+h6 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 16px;
 }
 
 a, a:active, a:visited {
-  color: dodgerblue;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -30,29 +73,36 @@ input[type='text'], input[type=password], textarea {
   font-size: 100%;
 }
 
-div.content {
+.content {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 100%;
 }
 
 nav {
-  padding: 0.8rem 0;
+  text-align:center;
+  padding: 4rem 0;
+  background: #0d0e0f;
+
 }
 
 nav a {
   margin-right: 1rem;
   transition: all 0.3s ease;
   text-decoration: none;
-  border-bottom: 1px solid white;
-  padding: 0.2rem;
+  padding: 0.5rem;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 nav a.active-link, nav a:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid #fff;
+  color: #fff;
 }
 
-div.main {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 1rem;
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid #bfc0c1;
 }

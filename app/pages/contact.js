@@ -1,7 +1,7 @@
 module.exports = async function($) {
-  $.page.title = 'About'
+  $.page.title = 'Contact'
 
   return /* html */`
-    <h1>about</h1>
+    <h1>Kontakt oss</h1>
   `
 }
