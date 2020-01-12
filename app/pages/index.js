@@ -15,15 +15,15 @@ module.exports = async function($) {
     <div class="wrapper-fullwidth">
       <section class="contact">
         <h3>Kontakt oss</h3>
-        <div class="row">
-          <div class="col-12">
+        <div class="container-wrapper">
+          <div class="col-8 header-form">
             <p>Lurer du på noe?</p>
             <p>Fyll ut kontaktskjemaet, så svarer vi så fort vi kan. </p>
             <br>
             <p>&#9742; Telefon: 40404040</p>
             <p><a class="email" href="mailto:vida@eldoy.com">&#9993; E-post: vida@eldoy.com</a></p>
           </div>
-          <div class="col-8">
+          <div class="col-8 contact-form">
             <form action="" method="post" class="form">
               <label for="name">Navn/ Firma*</label>
               <input type="text" id="name" name="name" placeholder="Kari Olsen">
@@ -37,7 +37,7 @@ module.exports = async function($) {
               <label for="subject">Beskjed</label>
               <textarea id="subject" name="subject" placeholder="Skrive noe..." style="height:200px"></textarea>
               <br>
-              <button class="send" type="submit" value="Submit" onclick="handleSubmit()">Send</button>
+              <input class="send" type="submit" value="Send" onclick="handleSubmit()"/>
             </form>
           </div>
         </div>

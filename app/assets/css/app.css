@@ -114,17 +114,31 @@ footer {
 
 /* Grid */
 
-.row {
+.container-wrapper {
   display: grid;
-  grid-template-columns: 450px 1000px;
   grid-gap: 1rem;
   background-color: #fff;
   margin-bottom: 1rem;
   grid-template-areas:
-  "col-12"
-  "col-8"
+  "header-form"
+  "contact-form"
 }
 
+.contact-form {
+  grid-area: contact-form;
+}
+
+.header-form {
+  grid-area: header-form;
+}
+
+@media (min-width: 800px) {
+  .container-wrapper {
+    grid-template-columns: 450px 1000px;
+    grid-template-areas:
+      "header-form contact-form"
+  }
+}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -154,4 +168,3 @@ a.email {
   color: #0d0e0f;
   text-decoration: underline;
 }
-
