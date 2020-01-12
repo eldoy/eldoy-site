@@ -132,6 +132,10 @@ footer {
   grid-area: header-form;
 }
 
+.header-form {
+  grid-area: header-form;
+}
+
 @media (min-width: 800px) {
   .container-wrapper {
     grid-template-columns: 450px 1000px;
@@ -152,7 +156,7 @@ footer {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-button.send{
+input.send{
   background: #0d0e0f;
   color: #fff;
   font-size: 18px;
