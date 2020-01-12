@@ -13,7 +13,5 @@
     "url": "https://github.com/eldoy/eldoy-site/issues"
   },
   "homepage": "https://github.com/eldoy/eldoy-site#readme",
-  "dependencies": {
-    "presang": "^0.7.7"
-  }
+  "dependencies": {}
 }
