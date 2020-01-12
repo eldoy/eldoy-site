@@ -12,13 +12,18 @@ body {
   text-align: center;
 }
 
-section.main{
-  margin: 4rem 0 1rem;
-  max-width: 800px;
+.wrapper-fullwidth {
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
-section.projects{
+section.main{
   margin: 4rem 0 1rem;
+}
+
+section.contact{
+  margin: 4rem 2rem;
+  border-top: 1px solid #aaa
 }
 
 h1 {
@@ -33,7 +38,7 @@ h2 {
 
 h3 {
   font-size: 32px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h4 {
@@ -43,6 +48,7 @@ h4 {
 
 h5 {
   font-size: 26px;
+  font-weight: 300;
 }
 
 h6 {
@@ -61,15 +67,15 @@ a, a:active, a:visited {
 label {
   display: block;
   font-size: 90%;
-  color: #999;
+  color: #555;
   margin-bottom: 0.3rem;
 }
 
 input[type='text'], input[type=password], textarea {
-  border: 1px solid #ccc;
-  padding: 3px 5px;
+  border: 2px solid #0d0e0f;
+  padding: 10px;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 100%;
 }
 
@@ -82,7 +88,6 @@ nav {
   text-align:center;
   padding: 4rem 0;
   background: #0d0e0f;
-
 }
 
 nav a {
@@ -103,6 +108,50 @@ nav a.active-link, nav a:hover {
 
 footer {
   text-align: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 1px solid #bfc0c1;
 }
+
+/* Grid */
+
+.row {
+  display: grid;
+  grid-template-columns: 450px 1000px;
+  grid-gap: 1rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  grid-template-areas:
+  "col-12"
+  "col-8"
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+button.send{
+  background: #0d0e0f;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #0d0e0f;
+  padding: 8px;
+  border-radius: 10px;
+  width: 100px;
+  margin-top: .8rem;
+  cursor: pointer;
+}
+
+a.email {
+  color: #0d0e0f;
+  text-decoration: underline;
+}
+

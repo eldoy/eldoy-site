@@ -18,9 +18,9 @@ module.exports = async function($) {
         <div class="content">
           <nav>
             <a href="/">Hjem</a>
-            <a href="/about.html">Om oss</a>
+            <a href="/about.html">Om meg</a>
             <a href="/services.html">Tjenester</a>
-            <a href="/projects.html">Prosjekter</a>
+            <!--<a href="/projects.html">Prosjekter</a>-->
             <a href="/contact.html">Kontakt</a>
           </nav>
           <div class="main">${ $.page.content }</div>
