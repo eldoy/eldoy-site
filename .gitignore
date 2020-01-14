@@ -8,3 +8,4 @@ server-macos
 server-linux
 dist
 .sverd
+.sverd.json
