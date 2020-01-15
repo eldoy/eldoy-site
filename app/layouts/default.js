@@ -25,7 +25,7 @@ module.exports = async function($) {
           </nav>
           <div class="main">${ $.page.content }</div>
           <footer>
-            <p>Made by Speria Creative 2020</p>
+            <p>Made by Eldøy 2020</p>
           </footer>
         </div>
         <script>${ current }; current()</script>

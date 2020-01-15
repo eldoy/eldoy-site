@@ -7,23 +7,25 @@ module.exports = async function($) {
 
   return /* html */`
     <div class="wrapper">
-      <section class="main">
+      <div class="main">
         <h1>Eldøy project lager nettsider som gir økt omsetning.</h1>
         <h5 style="font-style: italic;">" Med min erfaring kan jeg hjelpe deg med å sette opp en plan på hva du virkelig trenger, slik at unødvendige deler kan plukkes bort. Etter lanseringen tilbyr jeg også utvikling, drift og støtte, slik at du kan gjøre det du er best på."</h5>
-      </section>
+      </div>
     </div>
     <div class="wrapper-fullwidth">
-      <section class="contact">
-        <h3>Kontakt oss</h3>
-        <div class="container-wrapper">
-          <div class="col-8 header-form">
+      <div class="contact row">
+        <div class="column">
+          <div class='contact-text'>
+            <h3>Kontakt oss</h3>
             <p>Lurer du på noe?</p>
             <p>Fyll ut kontaktskjemaet, så svarer vi så fort vi kan. </p>
             <br>
             <p>&#9742; Telefon: 40404040</p>
-            <p><a class="email" href="mailto:vida@eldoy.com">&#9993; E-post: vida@eldoy.com</a></p>
+            <p><a class="email" href="mailto:vida@eldoy.com">&#9993; E-post: vidar@eldoy.com</a></p>
           </div>
-          <div class="col-8 contact-form">
+        </div>
+        <div class='column'>
+          <div class='contact-form'>
             <form action="" method="post" class="form">
               <label for="name">Navn/ Firma*</label>
               <input type="text" id="name" name="name" placeholder="Kari Olsen">
@@ -41,7 +43,7 @@ module.exports = async function($) {
             </form>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   `
 }

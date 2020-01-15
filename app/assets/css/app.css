@@ -1,5 +1,6 @@
 *, html {
   box-sizing: border-box;
+  overflow: scroll
 }
 
 body {
@@ -17,12 +18,12 @@ body {
   max-width: 1200px;
 }
 
-section.main{
-  margin: 4rem 0 1rem;
+.main{
+  margin-top: 2rem;
 }
 
-section.contact{
-  margin: 4rem 2rem;
+.contact{
+  margin: 3rem 2rem;
   border-top: 1px solid #aaa
 }
 
@@ -112,49 +113,12 @@ footer {
   border-top: 1px solid #bfc0c1;
 }
 
-/* Grid */
-
 .container-wrapper {
-  display: grid;
-  grid-gap: 1rem;
+  max-width: 100%;
+  margin: 0 auto;
   background-color: #fff;
   margin-bottom: 1rem;
-  grid-template-areas:
-  "header-form"
-  "contact-form"
 }
-
-.contact-form {
-  grid-area: contact-form;
-}
-
-.header-form {
-  grid-area: header-form;
-}
-
-.header-form {
-  grid-area: header-form;
-}
-
-@media (min-width: 800px) {
-  .container-wrapper {
-    grid-template-columns: 450px 1000px;
-    grid-template-areas:
-      "header-form contact-form"
-  }
-}
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
 
 input.send{
   background: #0d0e0f;
@@ -171,4 +135,25 @@ input.send{
 a.email {
   color: #0d0e0f;
   text-decoration: underline;
+}
+
+.contact-text {
+  margin-top: 0;
+}
+
+.contact-form {
+  padding-top: 2.5rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
