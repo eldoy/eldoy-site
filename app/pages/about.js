@@ -2,8 +2,9 @@ module.exports = async function($) {
   $.page.title = 'About'
 
   return /* html */`
-    <h1>Hei, jeg heter Vidar!</h1>
-    <p>Gjennom 15 års erfaring som arkitekt og utvikler, lager jeg avanserte nettsider og apps fra store til små bedrifter. </p>
-    <p>Jeg utvikler i ulike programmmeringsspråk og kan skreddersy alt fra A til Å.</p>
+    <h1>Om oss</h1>
+    <h2>Hvem er vi?</h2>
+    <h2>Hvor finner du oss?</h2>
+    <h2>Hva er våre produkter?</h2>
   `
 }
