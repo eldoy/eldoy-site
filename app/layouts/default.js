@@ -1,7 +1,10 @@
 module.exports = async function($) {
-  function current () {
-    var a = q(`nav a[href="${ location.pathname }"]`) || q('nav a')
-    a.classList.add('active-link')
+  function init() {
+    document.querySelectorAll('nav a').forEach(function(a) {
+      if (a.pathname == location.pathname) {
+        a.classList.add('active-link')
+      }
+    })
   }
   return /* html */`
     <!doctype html>
@@ -20,7 +23,7 @@ module.exports = async function($) {
             <a class="navbar-homelink" href="/">
               <img class="navbar-logo-badge" src="/img/eldoy-draft4-white-optimized.svg" alt="Eldøy logo">
             </a>
-            <a class="navlink" href="/about.html">Om meg</a>
+            <a class="navlink" href="/about.html">Om oss</a>
             <a class="navlink" href="/services.html">Tjenester</a>
           </nav>
         </header>
@@ -29,7 +32,7 @@ module.exports = async function($) {
             <p>Made by Eldøy Projects</p>
           </footer>
         </div>
-        <script>${ current }; current()</script>
+        <script>${ init }; init()</script>
       </body>
     </html>`
 }

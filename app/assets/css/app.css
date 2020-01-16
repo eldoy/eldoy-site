@@ -45,11 +45,6 @@ p {
   font-size: 16px;
 }
 
-a, a:active, a:visited {
-  color: #fff;
-  text-decoration: none;
-}
-
 label {
   display: block;
   font-size: 90%;
@@ -84,11 +79,15 @@ nav {
   box-shadow: 2px 2px 14px -5px rgba(0,0,0,0.75);
 }
 
+nav a {
+  color: #fff;
+}
+
 nav a.navlink {
   margin: 0 1.618rem;
   transition: all 0.3s ease;
   padding: 0.1rem 0.3rem;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid black;
   text-decoration: none;
 }
 
@@ -116,7 +115,7 @@ nav a.navbar-homelink img.navbar-logo-text {
 }
 
 nav a.navlink.active-link, nav a.navlink:hover {
-  border-bottom: 2px solid rgb(17, 128, 128);
+  border-bottom: 2px solid white;
 }
 
 body.home div.main {
