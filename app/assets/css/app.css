@@ -1,33 +1,15 @@
 *, html {
   box-sizing: border-box;
-  overflow: scroll
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 23px;
-  font-style: normal;
-  line-height: 1.2;
-}
-
-.wrapper {
-  margin: 0 auto;
-  max-width: 800px;
-  text-align: center;
-}
-
-.wrapper-fullwidth {
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-.main{
-  margin-top: 2rem;
-}
-
-.contact{
-  margin: 3rem 2rem;
-  border-top: 1px solid #aaa
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 110%;
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
 }
 
 h1 {
@@ -83,12 +65,73 @@ input[type='text'], input[type=password], textarea {
   font-size: 100%;
 }
 
-.content {
-  margin: 0 auto;
-  max-width: 100%;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
 
 nav {
+  display: flex;
+  align-items: center;
+  transition: all 0.2 ease;
+  background-color: black;
+  opacity: 0.98;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 2px 2px 14px -5px rgba(0,0,0,0.75);
+}
+
+nav a.navlink {
+  margin: 0 1.618rem;
+  transition: all 0.3s ease;
+  padding: 0.1rem 0.3rem;
+  border-bottom: 2px solid white;
+  text-decoration: none;
+}
+
+nav a.navbar-homelink {
+  flex-grow: 1;
+  text-align: left;
+  text-decoration: none;
+}
+
+nav a.navbar-homelink img {
+  height: 40px;
+}
+
+nav a.navbar-homelink img.navbar-logo-text {
+  height: 24px;
+  position: relative;
+  bottom: 4px;
+  left: 1px;
+}
+
+@media screen and (max-width: 600px) {
+  nav a.navbar-homelink img.navbar-logo-text {
+    display: none;
+  }
+}
+
+nav a.navlink.active-link, nav a.navlink:hover {
+  border-bottom: 2px solid rgb(17, 128, 128);
+}
+
+body.home div.main {
+  max-width: none;
+  margin: none;
+}
+
+div.main {
+  margin: 0 auto;
+  padding: 4.5rem 0 0;
+  max-width: 820px;
+  background-color: white;
+}
+
+/* nav {
   text-align:center;
   padding: 4rem 0;
   background: #0d0e0f;
@@ -107,7 +150,7 @@ nav a {
 nav a.active-link, nav a:hover {
   border-bottom: 2px solid #fff;
   color: #fff;
-}
+} */
 
 
 footer {

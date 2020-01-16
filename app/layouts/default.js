@@ -15,17 +15,18 @@ module.exports = async function($) {
         <script src="/js/haka-min.js"></script>
       </head>
       <body>
-        <div class="content">
+        <header>
           <nav>
-            <a href="/">Hjem</a>
-            <a href="/about.html">Om meg</a>
-            <a href="/services.html">Tjenester</a>
-            <!--<a href="/projects.html">Prosjekter</a>-->
-            <a href="/contact.html">Kontakt</a>
+            <a class="navbar-homelink" href="/">
+              <img class="navbar-logo-badge" src="/img/eldoy-draft4-white-optimized.svg" alt="Eldøy logo">
+            </a>
+            <a class="navlink" href="/about.html">Om meg</a>
+            <a class="navlink" href="/services.html">Tjenester</a>
           </nav>
-          <div class="main">${ $.page.content }</div>
+        </header>
+        <div class="main">${ $.page.content }</div>
           <footer>
-            <p>Made by Eldøy 2020</p>
+            <p>Made by Eldøy Projects</p>
           </footer>
         </div>
         <script>${ current }; current()</script>
