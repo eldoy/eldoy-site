@@ -4,8 +4,6 @@ module.exports = async function() {
     urls: [
       '/',
       '/about.html',
-      '/contact.html',
-      '/projects.html',
       '/services.html'
     ]
   }
