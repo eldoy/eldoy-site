@@ -2,7 +2,7 @@ const tags = [
   "SEO", "digital markedsføring", "analyse", "salgsstrategi", "data mining", "HTML", "CSS",
   "Jamstack", "serverless", "SSR", "Linux", "MacOS", "iOS", "Android", "JSON API", "RPC", "Web Sockets", "git", "docker",
   "VPS", "DNS", "scripting", "sysadmin", "nettverk", "DevOps", "Javascript", "Typescript", "Java", "Python", "Bash", "C",
-  "Go", "databaser", "NoSQL", "SQL", "testing", "performance", "skalering", "tekstskriving"
+  "Go", "databaser", "NoSQL", "SQL", "testing", "performance", "skalering", "tekstskriving", "Google analytics"
 ]
 
 module.exports = async function($) {
@@ -47,6 +47,7 @@ module.exports = async function($) {
         white-space: nowrap;
       }
       div.contact {
+        text-align: left;
       }
     </style>
     <div class="home">
@@ -77,11 +78,11 @@ module.exports = async function($) {
             <li>Avanserte APIer, nettsider og applikasjoner</li>
             <li>Design og oppsett av profesjonelle dataprosjekter</li>
             <li>Konsulenttjenester for markedsføring og strategi</li>
-            <li>Mikrotjenester integrert i eksisterende nettsider</li>
+            <li>Mikrotjenester integrert i eksisterende løsninger</li>
           </ul>
           <p>
             Hvis prosjektet er i oppstartsfasen eller begynner å bli vanskelig kan vi komme inn og få det på
-            rett kjøl, enten som rådgivere eller utviklere. Vi jobber raskt og leverer høy kvalitet.
+            rett kjøl, enten som rådgivere eller utviklere. Vi jobber raskt og leverer høyeste kvalitet.
           </p>
           <p>
             Vi tar vanligvis betalt per time, men vi kan også diskutere fastpris.
