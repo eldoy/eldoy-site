@@ -20,7 +20,7 @@ module.exports = async function($) {
     </style>
     <div class="home">
       <div class="logo">
-        <img src="/img/full.svg" alt="Eldøy logo full">
+        <img src="/img/full-white.svg" alt="Eldøy logo full">
       </div>
       <div class="tagline">
         <h1>Vi lager moderne dataløsninger</h1>
