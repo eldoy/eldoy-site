@@ -58,9 +58,9 @@ module.exports = async function($) {
             <a href="https://www.ruby-lang.org">Ruby</a>
           </p>
           <p>
-            Andre stikkord: SEO, digital markedsføring, analyse, salgsstrategi, data mining, Jamstack,
-            serverless, SSR, Linux, MacOS, iOS, Android, JSON API, RPC, Web Sockets, git, docker,
-            VPS, DNS, scripting, sysadmin, nettverk, DevOps, Javascript, Typescript, Ruby, Java, Python, Bash, C,
+            Andre stikkord: SEO, digital markedsføring, analyse, salgsstrategi, data mining, HTML, CSS,
+            Jamstack, serverless, SSR, Linux, MacOS, iOS, Android, JSON API, RPC, Web Sockets, git, docker,
+            VPS, DNS, scripting, sysadmin, nettverk, DevOps, Javascript, Typescript, Java, Python, Bash, C,
             Go, databaser, NoSQL, SQL, testing, performance, skalering, tekstskriving.
           </p>
           <p>

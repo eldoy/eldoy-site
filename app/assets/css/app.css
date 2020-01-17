@@ -10,7 +10,7 @@ body {
   margin: 0;
   line-height: 1.6;
   color: white;
-  background-color: #011;
+  background-color: #0d0e0f;
 }
 
 label {
@@ -38,7 +38,7 @@ header {
 }
 
 a {
-  color: #FCCD99;
+  color: #65c3ba;
 }
 
 nav {
