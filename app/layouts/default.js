@@ -15,13 +15,15 @@ module.exports = async function($) {
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/app.css" type="text/css">
         <link rel="stylesheet" href="/css/variables.css" type="text/css">
+        <link rel="icon" type="image/png" href="/img/favicon.png">
         <script src="/js/haka-min.js"></script>
       </head>
       <body>
         <header>
           <nav>
             <a class="navbar-homelink" href="/">
-              <img class="navbar-logo-badge" src="/img/eldoy-draft4-white-optimized.svg" alt="Eldøy logo">
+              <img class="navbar-logo-badge" src="/img/badge-white.svg" alt="Eldøy logo badge">
+              <img class="navbar-logo-text" src="/img/textonly.svg" alt="Eldøy logo text">
             </a>
             <a class="navlink" href="/about.html">Om oss</a>
             <a class="navlink" href="/services.html">Tjenester</a>

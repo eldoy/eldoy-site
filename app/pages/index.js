@@ -15,7 +15,7 @@ module.exports = async function($) {
       }
     </style>
     <section class="logo">
-      <img src="/img/eldoy-draft4-black-optimized.svg">
+      <img src="/img/full.svg" alt="Eldøy logo full">
     </section>
 
     <section class="tagline">
