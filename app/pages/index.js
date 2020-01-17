@@ -22,7 +22,6 @@ module.exports = async function($) {
       <div class="logo">
         <img src="/img/full.svg" alt="Eldøy logo full">
       </div>
-
       <div class="tagline">
         <h1>Vi lager moderne dataløsninger</h1>
       </div>

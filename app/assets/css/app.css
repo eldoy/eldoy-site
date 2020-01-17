@@ -75,12 +75,6 @@ nav a.navbar-homelink img.navbar-logo-text {
   left: 1px;
 }
 
-/* @media screen and (max-width: 600px) {
-  nav a.navbar-homelink img.navbar-logo-text {
-    display: none;
-  }
-} */
-
 nav a.navlink.active-link, nav a.navlink:hover {
   border-bottom: 2px solid white;
 }
@@ -102,4 +96,13 @@ footer {
   padding: 2rem 0;
   font-size: 90%;
   color: #555;
+}
+
+@media screen and (max-width: 600px) {
+  /* nav a.navbar-homelink img.navbar-logo-text {
+    display: none;
+  } */
+  div.main {
+    padding: 4.5rem 0.6rem 0;
+  }
 }
