@@ -13,6 +13,7 @@ module.exports = async function($) {
         height: 140px;
       }
       div.tagline {
+        text-shadow: 1px 1px #555;
       }
       div.contact {
         width: 100%;
