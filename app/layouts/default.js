@@ -31,7 +31,9 @@ module.exports = async function($) {
         </header>
         <div class="main">${ $.page.content }</div>
         <footer>
+        <img class="footer-logo-badge" src="/img/badge-gray.svg" alt="Eldøy logo badge">
           <p>Laget av Eldøy Projects, Oslo, Norge</p>
+
         </footer>
         <script>${ init };init()</script>
       </body>

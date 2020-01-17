@@ -3,6 +3,10 @@ module.exports = async function($) {
 
   return /* html */`
     <style>
+      h2 {
+        text-transform: uppercase;
+        padding-top: 1.618rem;
+      }
       div.home {
         text-align: center;
       }
@@ -12,23 +16,28 @@ module.exports = async function($) {
       div.logo img {
         height: 140px;
       }
-      div.tagline {
+      div.tagline h1 {
         text-shadow: 1px 1px #555;
+        font-weight: 400;
+        font-size: 36px;
+        font-style: italic;
+        padding: 1.618rem 0;
       }
       div.info {
         text-align: left;
       }
+      p.buzzwords {
+      }
       div.contact {
         width: 100%;
       }
-
     </style>
     <div class="home">
       <div class="logo">
         <img src="/img/full-white.svg" alt="Eldøy logo full">
       </div>
       <div class="tagline">
-        <h1>Vi bygger moderne dataløsninger</h1>
+        <h1>&ldquo;Vi er spesialist på moderne dataløsninger, arkitektur og design&rdquo;</h1>
       </div>
       <div class="info">
         <div class="products">
@@ -57,7 +66,7 @@ module.exports = async function($) {
             <a href="https://svelte.dev">Svelte, </a>
             <a href="https://www.ruby-lang.org">Ruby</a>
           </p>
-          <p>
+          <p class="buzzwords">
             Andre stikkord: SEO, digital markedsføring, analyse, salgsstrategi, data mining, HTML, CSS,
             Jamstack, serverless, SSR, Linux, MacOS, iOS, Android, JSON API, RPC, Web Sockets, git, docker,
             VPS, DNS, scripting, sysadmin, nettverk, DevOps, Javascript, Typescript, Java, Python, Bash, C,
