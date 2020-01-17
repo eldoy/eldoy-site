@@ -10,7 +10,7 @@ body {
   margin: 0;
   line-height: 1.6;
   color: white;
-  background-color: black;
+  background-color: #111;
 }
 
 label {
@@ -39,6 +39,7 @@ header {
 
 a {
   color: steelblue;
+  color: #f39c12;
 }
 
 nav {
@@ -93,7 +94,6 @@ div.main {
   margin: 0 auto;
   padding: 3rem 0 0;
   max-width: 600px;
-  background-color: black;
 }
 
 footer {
