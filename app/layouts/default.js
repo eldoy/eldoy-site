@@ -25,8 +25,8 @@ module.exports = async function($) {
               <img class="navbar-logo-badge" src="/img/badge-white.svg" alt="Eldøy logo badge">
               <img class="navbar-logo-text" src="/img/textonly.svg" alt="Eldøy logo text">
             </a>
-            <a class="navlink" href="/about.html">Om oss</a>
-            <a class="navlink" href="/services.html">Tjenester</a>
+            <!-- <a class="navlink" href="/about.html">Om oss</a> -->
+            <!-- <a class="navlink" href="/services.html">Tjenester</a> -->
           </nav>
         </header>
         <div class="main">${ $.page.content }</div>
