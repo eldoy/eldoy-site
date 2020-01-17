@@ -1,3 +1,10 @@
+const tags = [
+  "SEO", "digital markedsføring", "analyse", "salgsstrategi", "data mining", "HTML", "CSS",
+  "Jamstack", "serverless", "SSR", "Linux", "MacOS", "iOS", "Android", "JSON API", "RPC", "Web Sockets", "git", "docker",
+  "VPS", "DNS", "scripting", "sysadmin", "nettverk", "DevOps", "Javascript", "Typescript", "Java", "Python", "Bash", "C",
+  "Go", "databaser", "NoSQL", "SQL", "testing", "performance", "skalering", "tekstskriving"
+]
+
 module.exports = async function($) {
   $.page.title = 'Home'
 
@@ -26,10 +33,21 @@ module.exports = async function($) {
       div.info {
         text-align: left;
       }
-      p.buzzwords {
+      div.buzzwords {
+      }
+      span.tag {
+        background: black;
+        color: white;
+        border: 1px solid white;
+        padding: 6px;
+        border-radius: 6px;
+        margin: 5px;
+        font-size: 80%;
+        line-height: 2.5;
+        white-space: nowrap;
+
       }
       div.contact {
-        width: 100%;
       }
     </style>
     <div class="home">
@@ -37,7 +55,7 @@ module.exports = async function($) {
         <img src="/img/full-white.svg" alt="Eldøy logo full">
       </div>
       <div class="tagline">
-        <h1>&ldquo;Vi er spesialist på moderne dataløsninger, arkitektur og design&rdquo;</h1>
+        <h1>&ldquo;Vi er spesialister på moderne dataløsninger, arkitektur og design&rdquo;</h1>
       </div>
       <div class="info">
         <div class="products">
@@ -57,8 +75,8 @@ module.exports = async function($) {
           </p>
           <ul>
             <li>Rask utvikling av eksisterende design</li>
-            <li>Design og oppsett av dataprosjekter</li>
             <li>Avanserte APIer, nettsider og applikasjoner</li>
+            <li>Design og oppsett av profesjonelle dataprosjekter</li>
             <li>Konsulenttjenester for markedsføring og strategi</li>
             <li>Mikrotjenester integrert i eksisterende nettsider</li>
           </ul>
@@ -84,12 +102,13 @@ module.exports = async function($) {
             <a href="https://svelte.dev">Svelte, </a>
             <a href="https://www.ruby-lang.org">Ruby</a>
           </p>
-          <p class="buzzwords">
-            Andre stikkord: SEO, digital markedsføring, analyse, salgsstrategi, data mining, HTML, CSS,
-            Jamstack, serverless, SSR, Linux, MacOS, iOS, Android, JSON API, RPC, Web Sockets, git, docker,
-            VPS, DNS, scripting, sysadmin, nettverk, DevOps, Javascript, Typescript, Java, Python, Bash, C,
-            Go, databaser, NoSQL, SQL, testing, performance, skalering, tekstskriving.
-          </p>
+          <div class="buzzwords">
+            ${
+              tags.map(function(tag) {
+                return `<span class="tag">${tag}</span> `
+              }).join('')
+            }
+          </div>
           <p>
             Alle programmeringsspråk og verktøy kan tilegnes på kort tid.
           </p>
@@ -102,7 +121,7 @@ module.exports = async function($) {
             dataløsninger i over 15 år.
           </p>
         </div>
-      </p>
+      </div>
       <div class="contact">
         Send en epost til
         <a class="email" href="mailto:vidar@eldoy.com">vidar@eldoy.com</a>
