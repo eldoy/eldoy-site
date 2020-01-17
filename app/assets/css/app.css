@@ -46,8 +46,14 @@ nav {
   box-shadow: 2px 2px 14px -5px rgba(0,0,0,0.75);
 }
 
+nav div:first-child {
+  flex-grow: 1;
+  text-align: left;
+}
+
 nav a {
   color: #fff;
+  text-decoration: none;
 }
 
 nav a.navlink {
@@ -55,13 +61,6 @@ nav a.navlink {
   transition: all 0.3s ease;
   padding: 0.1rem 0.3rem;
   border-bottom: 2px solid black;
-  text-decoration: none;
-}
-
-nav a.navbar-homelink {
-  flex-grow: 1;
-  text-align: left;
-  text-decoration: none;
 }
 
 nav a.navbar-homelink img {

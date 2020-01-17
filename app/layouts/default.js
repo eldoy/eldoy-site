@@ -21,10 +21,12 @@ module.exports = async function($) {
       <body>
         <header>
           <nav>
-            <a class="navbar-homelink" href="/">
-              <img class="navbar-logo-badge" src="/img/badge-white.svg" alt="Eldøy logo badge">
-              <img class="navbar-logo-text" src="/img/textonly.svg" alt="Eldøy logo text">
-            </a>
+            <div>
+              <a class="navbar-homelink" href="/">
+                <img class="navbar-logo-badge" src="/img/badge-white.svg" alt="Eldøy logo badge">
+                <img class="navbar-logo-text" src="/img/textonly.svg" alt="Eldøy logo text">
+              </a>
+            </div>
           </nav>
         </header>
         <div class="main">${ $.page.content }</div>
