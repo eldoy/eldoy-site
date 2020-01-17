@@ -46,11 +46,29 @@ module.exports = async function($) {
             Vi lager og bruker <a href="https://waveorb.com">webutviklings-rammeverket Waveorb.</a>
           </p>
           <p>
-            <a href="https://github.com/eldoy">Sjekk våre Open Source prosjekter på Github.</a>
+            Sjekk våre <a href="https://github.com/eldoy">open source prosjekter på Github.</a>
           </p>
         </div>
         <div class="services">
           <h2>Tjenester</h2>
+          <p>
+            Vi kan gå inn som en del av ditt team, eller jobbe på egen hånd, over nettet eller på lokasjon.
+            Det vi utfører er hovedsakelig:
+          </p>
+          <ul>
+            <li>Rask utvikling av eksisterende design</li>
+            <li>Design og oppsett av dataprosjekter</li>
+            <li>Avanserte APIer, nettsider og applikasjoner</li>
+            <li>Konsulenttjenester for markedsføring og strategi</li>
+            <li>Mikrotjenester integrert i eksisterende nettsider</li>
+          </ul>
+          <p>
+            Hvis prosjektet er i oppstartsfasen eller begynner å bli vanskelig kan vi komme inn og få det på
+            rett kjøl, enten som rådgivere eller utviklere. Vi jobber raskt og leverer høy kvalitet.
+          </p>
+          <p>
+            Vi tar vanligvis betalt per time, men vi kan også diskutere fastpris.
+          </p>
         </div>
         <div class="tools">
           <h2>Verktøy</h2>
