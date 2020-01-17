@@ -5,8 +5,6 @@ module.exports = async function($) {
     <style>
       div.home {
         text-align: center;
-        max-width: 600px;
-        margin: auto;
       }
       div.logo {
         padding-top: 3rem;

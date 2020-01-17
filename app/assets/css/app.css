@@ -75,11 +75,11 @@ nav a.navbar-homelink img.navbar-logo-text {
   left: 1px;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   nav a.navbar-homelink img.navbar-logo-text {
     display: none;
   }
-}
+} */
 
 nav a.navlink.active-link, nav a.navlink:hover {
   border-bottom: 2px solid white;
@@ -93,7 +93,7 @@ body.home div.main {
 div.main {
   margin: 0 auto;
   padding: 4.5rem 0 0;
-  max-width: 820px;
+  max-width: 600px;
   background-color: white;
 }
 
