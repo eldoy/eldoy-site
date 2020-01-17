@@ -11,7 +11,9 @@ module.exports = async function($) {
     <html lang="en">
       <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <title>${ $.page.title || 'Eldøy Projects' }</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Eldøy - Vi lager moderne dataløsninger">
+        <title>${ $.page.title || 'Eldøy' }</title>
         <link rel="stylesheet" href="/css/app.css" type="text/css">
         <link rel="stylesheet" href="/css/variables.css" type="text/css">
         <link rel="icon" type="image/png" href="/img/favicon.png">
