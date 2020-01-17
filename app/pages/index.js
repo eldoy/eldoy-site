@@ -45,7 +45,6 @@ module.exports = async function($) {
         font-size: 80%;
         line-height: 2.5;
         white-space: nowrap;
-
       }
       div.contact {
       }
@@ -103,6 +102,7 @@ module.exports = async function($) {
             <a href="https://www.ruby-lang.org">Ruby</a>
           </p>
           <div class="buzzwords">
+            <h4>Andre ting</h4>
             ${
               tags.map(function(tag) {
                 return `<span class="tag">${tag}</span> `
