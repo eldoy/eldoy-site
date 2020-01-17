@@ -26,10 +26,9 @@ module.exports = async function($) {
           </nav>
         </header>
         <div class="main">${ $.page.content }</div>
-          <footer>
-            <p>Laget av Eldøy Projects, Oslo, Norge</p>
-          </footer>
-        </div>
+        <footer>
+          <p>Laget av Eldøy Projects, Oslo, Norge</p>
+        </footer>
         <script>${ init };init()</script>
       </body>
     </html>`
