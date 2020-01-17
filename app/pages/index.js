@@ -92,14 +92,14 @@ module.exports = async function($) {
           <h2>Verktøy</h2>
           <p>Dette er noen av de verktøyene vi bruker til daglig:</p>
           <p>
-            <a href="https://waveorb.com">Waveorb, </a>
-            <a href="https://nodejs.org">NodeJS, </a>
-            <a href="https://mongodb.com">MongoDB, </a>
-            <a href="https://github.com/google/leveldb">LevelDB, </a>
-            <a href="https://reactjs.org">React, </a>
-            <a href="https://preactjs.com">Preact, </a>
-            <a href="https://vuejs.org">Vue, </a>
-            <a href="https://svelte.dev">Svelte, </a>
+            <a href="https://waveorb.com">Waveorb</a>
+            <a href="https://nodejs.org">NodeJS</a>
+            <a href="https://mongodb.com">MongoDB</a>
+            <a href="https://github.com/google/leveldb">LevelDB</a>
+            <a href="https://reactjs.org">React</a>
+            <a href="https://preactjs.com">Preact</a>
+            <a href="https://vuejs.org">Vue</a>
+            <a href="https://svelte.dev">Svelte</a>
             <a href="https://www.ruby-lang.org">Ruby</a>
           </p>
           <div class="buzzwords">
