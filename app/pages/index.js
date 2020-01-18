@@ -1,8 +1,19 @@
+const tools = [
+  ['https://waveorb.com', 'Waveorb'],
+  ['https://nodejs.org', 'NodeJS'],
+  ['https://mongodb.com', 'MongoDB'],
+  ['https://github.com/google/leveldb', 'LevelDB'],
+  ['https://reactjs.org', 'React'],
+  ['https://svelte.dev', 'Svelte'],
+  ['https://vuejs.org', 'Vue'],
+  ['https://www.ruby-lang.org', 'Ruby']
+]
+
 const tags = [
-  "SEO", "digital markedsføring", "analyse", "salgsstrategi", "data mining", "HTML", "CSS",
-  "Jamstack", "serverless", "SSR", "Linux", "MacOS", "iOS", "Android", "JSON API", "RPC", "Web Sockets", "git", "docker",
-  "VPS", "DNS", "scripting", "sysadmin", "nettverk", "DevOps", "Javascript", "Typescript", "Java", "Python", "Bash", "C",
-  "Go", "databaser", "NoSQL", "SQL", "testing", "performance", "skalering", "tekstskriving", "Google analytics"
+  'SEO', 'digital markedsføring', 'analytics', 'salgsstrategi', 'tekstskriving', 'data mining', 'HTML', 'CSS',
+  'Jamstack', 'serverless', 'SSR', 'Linux', 'JSON API', 'RPC', 'Web Sockets', 'Git', 'Docker',
+  'VPS', 'DNS', 'scripting', 'sysadmin', 'nettverk', 'DevOps', 'Javascript', 'Typescript', 'Python', 'Bash',
+  'Go', 'databaser', 'NoSQL', 'SQL', 'testing', 'performance', 'skalering'
 ]
 
 module.exports = async function($) {
@@ -35,16 +46,19 @@ module.exports = async function($) {
       }
       div.buzzwords {
       }
-      span.tag {
+      .tag {
         background: black;
         color: white;
-        border: 1px solid white;
         padding: 6px;
         border-radius: 6px;
         margin: 5px;
         font-size: 80%;
         line-height: 2.5;
         white-space: nowrap;
+        border: 1px solid white;
+      }
+      a.tag {
+        border: 1px solid #65c3ba;
       }
       div.contact {
         text-align: left;
@@ -52,7 +66,7 @@ module.exports = async function($) {
     </style>
     <div class="home">
       <div class="logo">
-        <img src="/img/full-white.svg" alt="Eldøy logo full">
+        <a href="/"><img src="/img/full-white.svg" alt="Eldøy projects home"></a>
       </div>
       <div class="tagline">
         <h1>&ldquo;Vi er spesialister på moderne dataløsninger, arkitektur og design&rdquo;</h1>
@@ -74,7 +88,7 @@ module.exports = async function($) {
             Det vi utfører er hovedsakelig:
           </p>
           <ul>
-            <li>Rask utvikling av eksisterende design</li>
+            <li>Rask programmering av eksisterende design</li>
             <li>Avanserte APIer, nettsider og applikasjoner</li>
             <li>Design og oppsett av profesjonelle dataprosjekter</li>
             <li>Konsulenttjenester for markedsføring og strategi</li>
@@ -82,7 +96,7 @@ module.exports = async function($) {
           </ul>
           <p>
             Hvis prosjektet er i oppstartsfasen eller begynner å bli vanskelig kan vi komme inn og få det på
-            rett kjøl, enten som rådgivere eller utviklere. Vi jobber raskt og leverer høyeste kvalitet.
+            rett kjøl, enten som rådgivere eller utviklere. Vi jobber effektivt og leverer høyeste kvalitet.
           </p>
           <p>
             Vi tar vanligvis betalt per time, men vi kan også diskutere fastpris.
@@ -91,23 +105,19 @@ module.exports = async function($) {
         <div class="tools">
           <h2>Verktøy</h2>
           <p>Dette er noen av de verktøyene vi bruker til daglig:</p>
-          <p>
-            <a href="https://waveorb.com">Waveorb</a>
-            <a href="https://nodejs.org">NodeJS</a>
-            <a href="https://mongodb.com">MongoDB</a>
-            <a href="https://github.com/google/leveldb">LevelDB</a>
-            <a href="https://reactjs.org">React</a>
-            <a href="https://preactjs.com">Preact</a>
-            <a href="https://vuejs.org">Vue</a>
-            <a href="https://svelte.dev">Svelte</a>
-            <a href="https://www.ruby-lang.org">Ruby</a>
-          </p>
+          <div class="tools">
+            ${
+              tools.map(function(names) {
+                return `<a class="tag" href="${names[0]}">${names[1]}</a>`
+              }).join(' ')
+            }
+          </div>
           <div class="buzzwords">
-            <h4>Andre ting</h4>
+            <p>Andre ting:</p>
             ${
               tags.map(function(tag) {
-                return `<span class="tag">${tag}</span> `
-              }).join('')
+                return `<span class="tag">${tag}</span>`
+              }).join(' ')
             }
           </div>
           <p>
