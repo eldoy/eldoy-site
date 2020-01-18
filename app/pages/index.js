@@ -20,53 +20,9 @@ module.exports = async function($) {
   $.page.title = 'Home'
 
   return /* html */`
-    <style>
-      h2 {
-        text-transform: uppercase;
-        padding-top: 1.618rem;
-      }
-      div.home {
-        text-align: center;
-      }
-      div.logo {
-        padding-top: 3rem;
-      }
-      div.logo img {
-        height: 140px;
-      }
-      div.tagline h1 {
-        text-shadow: 1px 1px #555;
-        font-weight: 400;
-        font-size: 36px;
-        font-style: italic;
-        padding: 1.618rem 0;
-      }
-      div.info {
-        text-align: left;
-      }
-      div.buzzwords {
-      }
-      .tag {
-        background: black;
-        color: white;
-        padding: 6px;
-        border-radius: 6px;
-        margin: 5px;
-        font-size: 80%;
-        line-height: 2.5;
-        white-space: nowrap;
-        border: 1px solid white;
-      }
-      a.tag {
-        border: 1px solid #65c3ba;
-      }
-      div.contact {
-        text-align: left;
-      }
-    </style>
     <div class="home">
       <div class="logo">
-        <a href="/"><img src="/img/full-white.svg" alt="Eldøy projects home"></a>
+        <a href="/"><img src="/img/eldoy-logo-main.svg" alt="Eldøy projects home"></a>
       </div>
       <div class="tagline">
         <h1>&ldquo;Vi er spesialister på moderne dataløsninger, arkitektur og design&rdquo;</h1>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg width="3057.5" height="2908.1" version="1.1" viewBox="0 0 808.95254 769.44259" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
  <defs>
   <filter id="filter1758" color-interpolation-filters="sRGB">
@@ -17,7 +16,7 @@
  </metadata>
  <g transform="translate(3772.8 -456.97)">
   <g transform="matrix(.7079 0 0 .7079 -2150.9 929.5)" filter="url(#filter1758)">
-   <g transform="matrix(6.4146 0 0 4.5485 2139 -861.31)" stroke="#000" stroke-width="3.8665">
+   <g transform="matrix(6.4146 0 0 4.5485 2139 -861.31)" stroke="#888" stroke-width="3.8665">
     <path d="m-591.15 46.024-59.72 119.44"/>
     <path d="m-586.62 46.024-61.988 119.44"/>
     <path d="m-585.11 49.804-68.036 114.15"/>
@@ -74,7 +73,7 @@
     </g>
    </g>
    <g transform="matrix(20.885 0 0 -20.885 1416.2 1208.7)">
-    <g transform="matrix(-.30714 0 0 .21779 -334.91 28.513)" stroke="#000" stroke-width="3.8665">
+    <g transform="matrix(-.30714 0 0 .21779 -334.91 28.513)" stroke="#888" stroke-width="3.8665">
      <path d="m-591.15 46.024-59.72 119.44"/>
      <path d="m-586.62 46.024-61.988 119.44"/>
      <path d="m-585.11 49.804-68.036 114.15"/>

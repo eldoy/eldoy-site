@@ -3,7 +3,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 body {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -12,105 +11,65 @@ body {
   color: white;
   background-color: #0d0e0f;
 }
-
-label {
-  display: block;
-  font-size: 90%;
-  color: #555;
-  margin-bottom: 0.3rem;
-}
-
-input[type='text'], input[type=password], textarea {
-  border: 2px solid #0d0e0f;
-  padding: 10px;
-  width: 100%;
-  border-radius: 10px;
-  font-size: 100%;
-}
-
-header {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-}
-
 a {
   color: #65c3ba;
 }
-
-nav {
-  display: flex;
-  align-items: center;
-  transition: all 0.2 ease;
-  background-color: black;
-  opacity: 0.98;
-  padding: 1rem;
-  border-bottom: 1px solid #ccc;
-  box-shadow: 2px 2px 14px -5px rgba(0,0,0,0.75);
-}
-
-nav div:first-child {
-  flex-grow: 1;
-  text-align: left;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a.navlink {
-  margin: 0 1.618rem;
-  transition: all 0.3s ease;
-  padding: 0.1rem 0.3rem;
-  border-bottom: 2px solid black;
-}
-
-nav a.navbar-homelink img {
-  height: 40px;
-}
-
-nav a.navbar-homelink img.navbar-logo-text {
-  height: 24px;
-  position: relative;
-  bottom: 4px;
-  left: 1px;
-}
-
-nav a.navlink.active-link, nav a.navlink:hover {
-  border-bottom: 2px solid white;
-}
-
-body.home div.main {
-  max-width: none;
-  margin: none;
-}
-
 div.main {
   margin: 0 auto;
   padding: 3rem 0 0;
   max-width: 600px;
 }
-
 footer {
   text-align: center;
   padding: 5rem 0 2rem;
   font-size: 90%;
   color: #888;
 }
-
 footer img.footer-logo-badge {
   height: 30px;
 }
-
 @media screen and (max-width: 600px) {
-  /* nav a.navbar-homelink img.navbar-logo-text {
-    display: none;
-  } */
   div.main {
     padding: 3rem 0.6rem 0;
   }
+}
+h2 {
+  text-transform: uppercase;
+  padding-top: 1.618rem;
+}
+div.home {
+  text-align: center;
+}
+div.logo {
+  padding-top: 3rem;
+}
+div.logo img {
+  height: 140px;
+}
+div.tagline h1 {
+  text-shadow: 1px 1px #555;
+  font-weight: 400;
+  font-size: 36px;
+  font-style: italic;
+  padding: 1.618rem 0;
+}
+div.info {
+  text-align: left;
+}
+.tag {
+  background: black;
+  color: white;
+  padding: 6px;
+  border-radius: 6px;
+  margin: 5px;
+  font-size: 80%;
+  line-height: 2.5;
+  white-space: nowrap;
+  border: 1px solid white;
+}
+a.tag {
+  border: 1px solid #65c3ba;
+}
+div.contact {
+  text-align: left;
 }
