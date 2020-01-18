@@ -10,19 +10,22 @@ body {
   line-height: 1.4;
   color: white;
   background-color: #0d0e0f;
+  text-align: center;
 }
 a {
   color: #65c3ba;
 }
 h2 {
   text-transform: uppercase;
-  padding-top: 1.618rem;
+  margin: 3rem 0 1rem;
+}
+p {
+  margin: 1rem 0;
 }
 div.main {
   margin: 0 auto;
   padding: 3rem 0 0;
   max-width: 600px;
-  text-align: center;
 }
 @media screen and (max-width: 600px) {
   div.main {
@@ -30,8 +33,7 @@ div.main {
   }
 }
 footer {
-  text-align: center;
-  padding: 5rem 0 2rem;
+  padding: 3rem 0 2rem;
   font-size: 90%;
   color: #888;
 }
@@ -49,7 +51,7 @@ div.tagline h1 {
   font-weight: 400;
   font-size: 36px;
   font-style: italic;
-  padding: 1.618rem 0;
+  padding: 1.6rem 0;
 }
 div.info {
   text-align: left;
@@ -57,17 +59,14 @@ div.info {
 .tag {
   background: black;
   color: white;
-  padding: 6px;
+  border: 1px solid white;
   border-radius: 6px;
   margin: 5px;
+  padding: 6px;
   font-size: 80%;
   line-height: 2.5;
   white-space: nowrap;
-  border: 1px solid white;
 }
 a.tag {
   border: 1px solid #65c3ba;
-}
-div.contact {
-  text-align: left;
 }
