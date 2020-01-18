@@ -43,7 +43,7 @@ module.exports = async function($) {
           Det vi utfører er hovedsakelig:
         </p>
         <ul>
-          <li>Rask programmering av eksisterende design</li>
+          <li>Rask utvikling av eksisterende design</li>
           <li>Avanserte APIer, nettsider og applikasjoner</li>
           <li>Design og oppsett av profesjonelle dataprosjekter</li>
           <li>Konsulenttjenester for markedsføring og strategi</li>
