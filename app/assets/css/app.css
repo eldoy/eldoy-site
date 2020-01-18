@@ -19,19 +19,19 @@ div.main {
   padding: 3rem 0 0;
   max-width: 600px;
 }
+@media screen and (max-width: 600px) {
+  div.main {
+    padding: 3rem 0.6rem 0;
+  }
+}
 footer {
   text-align: center;
   padding: 5rem 0 2rem;
   font-size: 90%;
   color: #888;
 }
-footer img.footer-logo-badge {
+footer img {
   height: 30px;
-}
-@media screen and (max-width: 600px) {
-  div.main {
-    padding: 3rem 0.6rem 0;
-  }
 }
 h2 {
   text-transform: uppercase;

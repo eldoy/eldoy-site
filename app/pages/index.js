@@ -10,14 +10,14 @@ const tools = [
 ]
 
 const tags = [
-  'SEO', 'digital markedsføring', 'analytics', 'salgsstrategi', 'tekstskriving', 'data mining', 'HTML', 'CSS',
-  'Jamstack', 'serverless', 'SSR', 'Linux', 'JSON API', 'RPC', 'Web Sockets', 'Git', 'Docker',
-  'VPS', 'DNS', 'scripting', 'sysadmin', 'nettverk', 'DevOps', 'Javascript', 'Typescript', 'Python', 'Bash',
+  'SEO', 'digital markedsføring', 'data mining', 'salgsstrategi', 'tekstskriving', 'analytics', 'HTML', 'CSS',
+  'Jamstack', 'serverless', 'SSR', 'Linux', 'NGINX', 'JSON API', 'RPC', 'Web Sockets', 'Git', 'Docker',
+  'VPS', 'DNS', 'scripting', 'sysadmin', 'DevOps', 'nettverk', 'Javascript', 'Typescript', 'Python', 'Bash',
   'Go', 'databaser', 'NoSQL', 'SQL', 'testing', 'performance', 'skalering'
 ]
 
 module.exports = async function($) {
-  $.page.title = 'Home'
+  $.page.title = 'Moderne dataløsninger, arkitektur og design'
 
   return /* html */`
     <div class="home">
