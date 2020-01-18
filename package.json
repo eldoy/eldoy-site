@@ -1,17 +1,16 @@
 {
   "name": "eldoy-site",
   "version": "0.1.0",
-  "description": "Eldoy.com web site",
+  "description": "eldoy.com web site",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eldoy/eldoy-site.git"
   },
-  "author": "Vidar <vidar@eldoy.com>",
-  "license": "MIT",
+  "author": "Vidar Eldøy <vidar@eldoy.com>",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/eldoy/eldoy-site/issues"
   },
-  "homepage": "https://github.com/eldoy/eldoy-site#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/eldoy/eldoy-site#readme"
 }

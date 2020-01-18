@@ -14,10 +14,15 @@ body {
 a {
   color: #65c3ba;
 }
+h2 {
+  text-transform: uppercase;
+  padding-top: 1.618rem;
+}
 div.main {
   margin: 0 auto;
   padding: 3rem 0 0;
   max-width: 600px;
+  text-align: center;
 }
 @media screen and (max-width: 600px) {
   div.main {
@@ -32,13 +37,6 @@ footer {
 }
 footer img {
   height: 30px;
-}
-h2 {
-  text-transform: uppercase;
-  padding-top: 1.618rem;
-}
-div.home {
-  text-align: center;
 }
 div.logo {
   padding-top: 3rem;
