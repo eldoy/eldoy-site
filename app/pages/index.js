@@ -17,7 +17,7 @@ const tags = [
 ]
 
 module.exports = async function($) {
-  $.page.title = 'Moderne dataløsninger, arkitektur og design'
+  $.page.title = 'Utvikling av moderne dataløsninger, arkitektur og design'
 
   return /* html */`
     <div class="logo">
