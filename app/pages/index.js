@@ -46,7 +46,7 @@ module.exports = async function($) {
         <li>Rask utvikling av eksisterende design</li>
         <li>Avanserte APIer, nettsider og applikasjoner</li>
         <li>Design og oppsett av profesjonelle dataprosjekter</li>
-        <li>Konsulenttjenester for markedsføring og strategi</li>
+        <li>Tekniske tjenester for markedsføring og strategi</li>
         <li>Mikrotjenester integrert i eksisterende løsninger</li>
       </ul>
       <p>
