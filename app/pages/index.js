@@ -29,9 +29,11 @@ module.exports = async function($) {
     <div class="info">
       <h2>Produkter</h2>
       <p>
+        <img src="/img/waveorb-badge.svg" alt="Waveorb logo">
         Vi lager og bruker <a href="https://waveorb.com">webutviklings-rammeverket Waveorb.</a>
       </p>
       <p>
+        <img src="/img/github-badge.svg" alt="Github logo">
         Sjekk våre <a href="https://github.com/eldoy">open source prosjekter på Github.</a>
       </p>
 
