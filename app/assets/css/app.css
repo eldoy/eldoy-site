@@ -50,6 +50,9 @@ footer img {
 div.logo {
   padding-top: 3rem;
 }
+div.logo a {
+  outline: none;
+}
 div.logo img {
   height: 140px;
 }
