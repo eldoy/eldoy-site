@@ -11,9 +11,9 @@ const tools = [
 
 const tags = [
   'SEO', 'digital markedsføring', 'data mining', 'salgsstrategi', 'tekstskriving', 'analytics', 'HTML', 'CSS',
-  'Jamstack', 'serverless', 'SSR', 'Linux', 'NGINX', 'JSON API', 'RPC', 'Web Sockets', 'Git', 'Docker',
-  'VPS', 'DNS', 'scripting', 'sysadmin', 'DevOps', 'nettverk', 'Javascript', 'Typescript', 'Python', 'Bash',
-  'Go', 'databaser', 'NoSQL', 'SQL', 'testing', 'performance', 'skalering'
+  'Jamstack', 'serverless', 'Linux', 'NGINX', 'JSON API', 'VPS', 'Web Sockets', 'Git', 'Docker',
+  'scripting', 'sysadmin', 'DevOps', 'nettverk', 'Javascript', 'Typescript', 'Python', 'Bash',
+  'Go', 'databaser', 'NoSQL', 'SQL', 'testing', 'sikkerhet', 'performance', 'skalering'
 ]
 
 module.exports = async function($) {
