@@ -64,7 +64,7 @@ module.exports = async function($) {
           return `<a class="tag" href="${names[0]}">${names[1]}</a>`
         }).join(' ')
       }
-      <p>Andre ting:</p>
+      <p>Andre ting vi er eksperter på:</p>
       ${
         tags.map(function(tag) {
           return `<span class="tag">${tag}</span>`
