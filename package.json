@@ -3,6 +3,9 @@
   "version": "0.1.1",
   "description": "eldoy.com web site",
   "main": "index.js",
+  "scripts": {
+    "serve": "nodemon -e js,mjs,json,yml -i dist -x waveorb serve"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/eldoy/eldoy-site.git"
