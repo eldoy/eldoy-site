@@ -89,4 +89,3 @@ module.exports = async function($) {
     </div>
   `
 }
-
