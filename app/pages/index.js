@@ -13,7 +13,7 @@ const tags = [
   'SEO', 'digital markedsføring', 'data mining', 'salgsstrategi', 'tekstskriving', 'analytics', 'HTML', 'CSS',
   'Jamstack', 'serverless', 'Linux', 'NGINX', 'JSON API', 'VPS', 'Web Sockets', 'Git', 'Docker',
   'scripting', 'sysadmin', 'DevOps', 'nettverk', 'Javascript', 'Typescript', 'Python', 'Bash',
-  'Go', 'databaser', 'NoSQL', 'SQL', 'testing', 'sikkerhet', 'performance', 'skalering'
+  'Go', 'databaser', 'NoSQL', 'SQL', 'testing', 'sikkerhet', 'ytelse', 'skalering'
 ]
 
 module.exports = async function($) {
@@ -64,7 +64,7 @@ module.exports = async function($) {
           return `<a class="tag" href="${names[0]}">${names[1]}</a>`
         }).join(' ')
       }
-      <p>Andre ting vi er eksperter på:</p>
+      <p>Andre ting vi er flinke på:</p>
       ${
         tags.map(function(tag) {
           return `<span class="tag">${tag}</span>`
