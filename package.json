@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/eldoy/eldoy-site/issues"
   },
-  "homepage": "https://github.com/eldoy/eldoy-site#readme"
+  "homepage": "https://github.com/eldoy/eldoy-site#readme",
+  "devDependencies": {
+    "conficurse": "^0.1.0"
+  }
 }
