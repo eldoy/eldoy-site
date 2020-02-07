@@ -1,0 +1,5 @@
+pretty: true
+compile: true
+routemap:
+  /: no#index
+  /en/: en#index

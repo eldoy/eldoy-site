@@ -4,87 +4,72 @@ const tools = [
   ['https://mongodb.com', 'MongoDB'],
   ['https://github.com/google/leveldb', 'LevelDB'],
   ['https://reactjs.org', 'React'],
-  ['https://svelte.dev', 'Svelte'],
   ['https://vuejs.org', 'Vue'],
   ['https://www.ruby-lang.org', 'Ruby']
 ]
 
-const tags = [
-  'SEO', 'digital markedsføring', 'data mining', 'salgsstrategi', 'tekstskriving', 'analytics', 'HTML', 'CSS',
-  'Jamstack', 'serverless', 'Linux', 'NGINX', 'JSON API', 'VPS', 'Web Sockets', 'Git', 'Docker',
-  'scripting', 'sysadmin', 'DevOps', 'nettverk', 'Javascript', 'Typescript', 'Python', 'Bash',
-  'Go', 'databaser', 'NoSQL', 'SQL', 'testing', 'sikkerhet', 'ytelse', 'skalering'
-]
-
 module.exports = async function($) {
-  $.page.title = 'Utvikling av moderne dataløsninger, arkitektur og design'
+  const tags = Object.keys($.app.locales[$.lang].tags)
+  $.page.title = $.t('pages.index.title')
+  $.page.description = $.t('pages.index.description')
 
   return /* html */`
     <div class="logo">
-      <a href="/"><img src="/img/eldoy-logo-main.svg" alt="Eldøy projects home"></a>
+      <a href="/"><img src="/img/eldoy-logo-main.svg" alt="Eldøy Projects logo"></a>
     </div>
     <div class="tagline">
-      <h1>&ldquo;Vi er spesialister på moderne dataløsninger, arkitektur og design&rdquo;</h1>
+      <h1>&ldquo;${ $.t('pages.index.tagline') }&rdquo;</h1>
     </div>
     <div class="info">
-      <h2>Produkter</h2>
+      <h2>${ $.t('pages.index.products') }</h2>
       <p>
         <img src="/img/waveorb-badge.svg" alt="Waveorb logo">
-        Vi lager og bruker <a href="https://waveorb.com">webutviklings-rammeverket Waveorb.</a>
+        ${ $.t('pages.index.we_make_and_use') }
+        <a href="https://waveorb.com">${ $.t('pages.index.web_framework_waveorb') }</a>
       </p>
       <p>
         <img src="/img/github-badge.svg" alt="Github logo">
-        Sjekk våre <a href="https://github.com/eldoy">open source prosjekter på Github.</a>
+        ${ $.t('pages.index.check_our') }
+        <a href="https://github.com/eldoy">${ $.t('pages.index.open_source_projects') }</a>
       </p>
 
-      <h2>Tjenester</h2>
+      <h2>${ $.t('pages.index.services') }</h2>
       <p>
-        Vi kan gå inn som en del av ditt team, eller jobbe på egen hånd, over nettet eller på lokasjon.
-        Det vi utfører er hovedsakelig:
+        ${ $.t('pages.index.team_or_location') }
+        ${ $.t('pages.index.what_we_do') }
       </p>
       <ul>
-        <li>Rask utvikling av eksisterende design</li>
-        <li>Avanserte APIer, nettsider og applikasjoner</li>
-        <li>Design og oppsett av profesjonelle dataprosjekter</li>
-        <li>Tekniske tjenester for markedsføring og strategi</li>
-        <li>Mikrotjenester integrert i eksisterende løsninger</li>
+        <li>${ $.t('pages.index.quick_development') }</li>
+        <li>${ $.t('pages.index.advanced_apis') }</li>
+        <li>${ $.t('pages.index.design_and_setup') }</li>
+        <li>${ $.t('pages.index.technical_services') }</li>
+        <li>${ $.t('pages.index.microservices') }</li>
       </ul>
-      <p>
-        Hvis prosjektet er i oppstartsfasen eller begynner å bli vanskelig kan vi komme inn og få det på
-        rett kjøl, enten som rådgivere eller utviklere. Vi jobber effektivt og leverer høyeste kvalitet.
-      </p>
-      <p>
-        Vi tar vanligvis betalt per time, men vi kan også diskutere fastpris.
-      </p>
+      <p>${ $.t('pages.index.project_fix') }</p>
+      <p>${ $.t('pages.index.payment_terms') }</p>
 
-      <h2>Verktøy</h2>
-      <p>Dette er noen av de verktøyene vi bruker til daglig:</p>
+      <h2>${ $.t('pages.index.tools') }</h2>
+      <p>${ $.t('pages.index.tools_we_use') }</p>
       ${
         tools.map(function(names) {
           return `<a class="tag" href="${names[0]}">${names[1]}</a>`
         }).join(' ')
       }
-      <p>Andre ting vi er flinke på:</p>
+      <p>${ $.t('pages.index.other_things') }</p>
       ${
         tags.map(function(tag) {
-          return `<span class="tag">${tag}</span>`
+          return `<span class="tag">${ $.t(`tags.${tag}`) }</span>`
         }).join(' ')
       }
-      <p>
-        Alle programmeringsspråk og verktøy kan tilegnes på kort tid.
-      </p>
+      <p>${ $.t('pages.index.programming') }</p>
 
-      <h2>Om oss</h2>
-      <p>
-        Eldøy Projects drives av Vidar Eldøy. Han har mastergrad i informatikk
-        fra universitetet i Oslo, og har drevet med design, utvikling og drift av
-        dataløsninger i over 15 år.
-      </p>
+      <h2>${ $.t('pages.index.about_us') }</h2>
+      <p>${ $.t('pages.index.about_eldoy_projects') }</p>
 
       <p>
-        Send en epost til
+        ${ $.t('pages.index.send_email_to') }
         <a class="email" href="mailto:vidar@eldoy.com">vidar@eldoy.com</a>
-        for å ta kontakt.
+        ${ $.t('pages.index.get_in_touch') }
       </p>
     </div>
   `

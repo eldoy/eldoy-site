@@ -1,0 +1,9 @@
+hostname: https://eldoy.com
+urls:
+  - url: /
+    lastmodfile: dist/index.html
+    changefreq: always
+    priority: 1.0
+    links:
+      - url: /en/
+        lang: en

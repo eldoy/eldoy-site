@@ -29,14 +29,24 @@ p img {
   position: relative;
   top: 4px;
 }
+div.lang {
+  color: white;
+  padding-top: 1rem;
+}
+div.lang a {
+  text-decoration: none;
+}
+div.lang a.active {
+  text-decoration: underline;
+}
 div.main {
   margin: 0 auto;
-  padding: 3rem 0 0;
+  padding: 1rem 0 0;
   max-width: 600px;
 }
 @media screen and (max-width: 600px) {
   div.main {
-    padding: 3rem 0.6rem 0;
+    padding: 1rem 0.6rem 0;
   }
 }
 footer {
