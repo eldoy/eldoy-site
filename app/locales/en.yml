@@ -1,46 +1,56 @@
 layout:
-  made_by: Laget av Eldøy Projects, Oslo, Norge
+  made_by: 'Created by Eldøy Projects, Oslo, Norway'
 pages:
   index:
-    title: Utvikling av moderne dataløsninger, arkitektur og design
-    description: Eldøy Projects - Vi er spesialister på moderne dataløsninger, arkitektur og design. Kontakt oss i dag for å komme i gang.
-    tagline: Vi er spesialister på moderne dataløsninger, arkitektur og design
-    products: Produkter
-    we_make_and_use: Vi lager og bruker
-    web_framework_waveorb: webutviklings-rammeverket Waveorb.
-    check_our: Sjekk våre
-    open_source_projects: open source prosjekter på Github.
-    services: Tjenester
-    team_or_location: Vi kan gå inn som en del av ditt team, eller jobbe på egen hånd, over nettet eller på lokasjon.
-    what_we_do: 'Det vi utfører er hovedsakelig:'
-    quick_development: Rask utvikling av eksisterende design
-    advanced_apis: Avanserte APIer, nettsider og applikasjoner
-    design_and_setup: Design og oppsett av profesjonelle dataprosjekter
-    technical_services: Tekniske tjenester for markedsføring og strategi
-    microservices: Mikrotjenester integrert i eksisterende løsninger
-    project_fix: Hvis prosjektet er i oppstartsfasen eller begynner å bli vanskelig kan vi komme inn og få det på rett kjøl, enten som rådgivere eller utviklere. Vi jobber effektivt og leverer høyeste kvalitet.
-    payment_terms: Vi tar vanligvis betalt per time, men vi kan også diskutere fastpris.
-    tools: Verktøy
-    tools_we_use: 'Dette er noen av de verktøyene vi bruker til daglig:'
-    other_things: 'Andre ting vi er flinke på:'
-    programming: Alle programmeringsspråk og verktøy kan tilegnes på kort tid.
-    about_us: Om oss
-    about_eldoy_projects: Eldøy Projects drives av Vidar Eldøy. Han har mastergrad i informatikk fra Universitetet i Oslo, og har drevet med design, utvikling og drift av dataløsninger i over 15 år.
-    send_email_to: Send en epost til
-    get_in_touch: for å ta kontakt.
+    title: 'Development of modern data solutions, architecture and design'
+    description: >-
+      Eldøy Projects - We specialize in modern data solutions, architecture and
+      design. Contact us today to get started.
+    tagline: 'We specialize in modern data solutions, architecture and design'
+    products: products
+    we_make_and_use: We make and use
+    web_framework_waveorb: the web development framework Waveorb.
+    check_our: Check ours
+    open_source_projects: open source projects on Github.
+    services: Services
+    team_or_location: >-
+      We can join as part of your team, or work on your own, over the web or on
+      location.
+    what_we_do: 'What we do is mainly:'
+    quick_development: Rapid development of existing designs
+    advanced_apis: 'Advanced APIs, websites and applications'
+    design_and_setup: Design and layout of professional computer projects
+    technical_services: Technical services for marketing and strategy
+    microservices: Micro services integrated into existing solutions
+    project_fix: >-
+      If the project is in the start-up phase or starts to become difficult, we
+      can come in and set it straight, either as consultants or developers. We work
+      efficiently and deliver the highest quality.
+    payment_terms: 'We usually charge per hour, but we can also discuss fixed prices.'
+    tools: Tools
+    tools_we_use: 'These are some of the tools we use daily:'
+    other_things: 'Other things we are good at:'
+    programming: All programming languages and tools can be acquired in a short time.
+    about_us: About us
+    about_eldoy_projects: >-
+      Eldøy Projects is run by Vidar Eldøy. He holds a master's degree in
+      computer science from the University of Oslo, and has been involved in the
+      design, development and operations of computer solutions for over 15 years.
+    send_email_to: Send an email to
+    get_in_touch: to get in touch.
 tags:
   seo: SEO
-  digital_marketing: digital markedsføring
+  digital_marketing: digital marketing
   data_mining: data mining
-  sales_strategy: salgsstrategi
-  text_writing: tekstskriving
+  sales_strategy: sales strategy
+  text_writing: scriptwriting
   analytics: analytics
   html: HTML
   css: CSS
   jamstack: Jamstack
   serverless: serverless
   linux: Linux
-  nginx: NGINX
+  nginx: Nginx
   json_api: JSON API
   vps: VPS
   web_sockets: Web Sockets
@@ -49,16 +59,16 @@ tags:
   scripting: scripting
   sysadmin: sysadmin
   devops: DevOps
-  network: nettverk
+  network: network
   javascript: Javascript
   typescript: Typescript
   python: Python
   bash: Bash
   go: Go
-  databases: databaser
+  databases: databases
   nosql: NoSQL
   sql: SQL
   testing: testing
-  security: sikkerhet
-  performance: ytelse
-  scaling: skalering
+  security: Safety
+  performance: performance
+  scaling: scaling

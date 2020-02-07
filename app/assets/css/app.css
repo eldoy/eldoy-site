@@ -35,6 +35,7 @@ div.lang {
 }
 div.lang a {
   text-decoration: none;
+  outline: none;
 }
 div.lang a.active {
   text-decoration: underline;
@@ -59,9 +60,6 @@ footer img {
 }
 div.logo {
   padding-top: 3rem;
-}
-div.logo a {
-  outline: none;
 }
 div.logo img {
   height: 240px;
