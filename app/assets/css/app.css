@@ -36,6 +36,7 @@ div.lang {
 div.lang a {
   text-decoration: none;
   outline: none;
+  margin: 0 0.5rem;
 }
 div.lang a.active {
   text-decoration: underline;
