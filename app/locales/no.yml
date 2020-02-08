@@ -3,7 +3,9 @@ layout:
 pages:
   index:
     title: Utvikling av moderne dataløsninger, arkitektur og design
-    description: Eldøy Projects - Vi er spesialister på moderne dataløsninger, arkitektur og design. Kontakt oss i dag for å komme i gang.
+    description: >-
+      Eldøy Projects - Vi er spesialister på moderne dataløsninger, arkitektur og
+      design. Kontakt oss i dag for å komme i gang.
     tagline: Vi er spesialister på moderne dataløsninger, arkitektur og design
     products: Produkter
     we_make_and_use: Vi lager og bruker
@@ -11,21 +13,29 @@ pages:
     check_our: Sjekk våre
     open_source_projects: open source prosjekter på Github.
     services: Tjenester
-    team_or_location: Vi kan gå inn som en del av ditt team, eller jobbe på egen hånd, over nettet eller på lokasjon.
+    team_or_location: >-
+      Vi kan gå inn som en del av ditt team, eller jobbe på egen hånd, over nettet
+      eller på lokasjon.
     what_we_do: 'Det vi utfører er hovedsakelig:'
     quick_development: Rask utvikling av eksisterende design
     advanced_apis: Avanserte APIer, nettsider og applikasjoner
     design_and_setup: Design og oppsett av profesjonelle dataprosjekter
     technical_services: Tekniske tjenester for markedsføring og strategi
     microservices: Mikrotjenester integrert i eksisterende løsninger
-    project_fix: Hvis prosjektet er i oppstartsfasen eller begynner å bli vanskelig kan vi komme inn og få det på rett kjøl, enten som rådgivere eller utviklere. Vi jobber effektivt og leverer høyeste kvalitet.
+    project_fix: >-
+      Hvis prosjektet er i oppstartsfasen eller begynner å bli vanskelig kan vi
+      komme inn og få det på rett kjøl, enten som rådgivere eller utviklere.
+      Vi jobber effektivt og leverer høyeste kvalitet.
     payment_terms: Vi tar vanligvis betalt per time, men vi kan også diskutere fastpris.
     tools: Verktøy
     tools_we_use: 'Dette er noen av de verktøyene vi bruker til daglig:'
     other_things: 'Andre ting vi er flinke på:'
     programming: Alle programmeringsspråk og verktøy kan tilegnes på kort tid.
     about_us: Om oss
-    about_eldoy_projects: Eldøy Projects drives av Vidar Eldøy. Han har mastergrad i informatikk fra Universitetet i Oslo, og har drevet med design, utvikling og drift av dataløsninger i over 15 år.
+    about_eldoy_projects: >-
+      Eldøy Projects drives av Vidar Eldøy. Han har mastergrad i informatikk fra
+      Universitetet i Oslo, og har drevet med design, utvikling og drift av
+      dataløsninger i over 15 år.
     send_email_to: Send en epost til
     get_in_touch: for å ta kontakt.
 tags:
