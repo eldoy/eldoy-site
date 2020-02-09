@@ -15,7 +15,7 @@ module.exports = async function($) {
 
   return /* html */`
     <div class="logo">
-      <a href="/"><img src="/img/eldoy-logo-main.svg" alt="Eldøy Projects logo"></a>
+      <a href="${ $.link('index') }"><img src="/img/eldoy-logo-main.svg" alt="Eldøy Projects logo"></a>
     </div>
     <div class="tagline">
       <h1>&ldquo;${ $.t('pages.index.tagline') }&rdquo;</h1>
@@ -32,7 +32,6 @@ module.exports = async function($) {
         ${ $.t('pages.index.check_our') }
         <a href="https://github.com/eldoy">${ $.t('pages.index.open_source_projects') }</a>
       </p>
-
       <h2>${ $.t('pages.index.services') }</h2>
       <p>
         ${ $.t('pages.index.team_or_location') }
@@ -47,7 +46,6 @@ module.exports = async function($) {
       </ul>
       <p>${ $.t('pages.index.project_fix') }</p>
       <p>${ $.t('pages.index.payment_terms') }</p>
-
       <h2>${ $.t('pages.index.tools') }</h2>
       <p>${ $.t('pages.index.tools_we_use') }</p>
       ${
@@ -62,10 +60,8 @@ module.exports = async function($) {
         }).join(' ')
       }
       <p>${ $.t('pages.index.programming') }</p>
-
       <h2>${ $.t('pages.index.about_us') }</h2>
       <p>${ $.t('pages.index.about_eldoy_projects') }</p>
-
       <p>
         ${ $.t('pages.index.send_email_to') }
         <a class="email" href="mailto:vidar@eldoy.com">vidar@eldoy.com</a>

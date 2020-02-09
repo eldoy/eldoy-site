@@ -11,16 +11,15 @@ module.exports = async function($) {
         <link rel="icon" type="image/png" href="/img/favicon.png">
       </head>
       <body>
+        <script>document.cookie='lang=;expires=Thu, 01 Jan 1970 00:00:01 GMT;'</script>
         <div class="lang">
-          <a href="${ $.link(`no#${ $.page.name }`) }" onclick="window.cookie('lang', 'no')">NO</a>
+          <a href="${ $.link(`no#${ $.page.name }`) }">NO</a>
           <span class="split">/</span>
-          <a href="${ $.link(`en#${ $.page.name }`) }" onclick="window.cookie('lang', 'en')">EN</a>
+          <a href="${ $.link(`en#${ $.page.name }`) }">EN</a>
         </div>
         <script>
           document.querySelectorAll('.lang a').forEach(function(a) {
-            if (a.pathname == location.pathname) {
-              a.classList.add('active')
-            }
+            if (a.pathname == location.pathname) a.classList.add('active')
           })
         </script>
         <div class="main">${ $.page.content }</div>
