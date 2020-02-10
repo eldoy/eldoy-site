@@ -45,7 +45,6 @@ module.exports = async function($) {
         <li>${ $.t('pages.index.microservices') }</li>
       </ul>
       <p>${ $.t('pages.index.project_fix') }</p>
-      <p>${ $.t('pages.index.payment_terms') }</p>
       <h2>${ $.t('pages.index.tools') }</h2>
       <p>${ $.t('pages.index.tools_we_use') }</p>
       ${
