@@ -1,7 +1,7 @@
 hostname: https://eldoy.com
 urls:
   - url: /
-    lastmodfile: dist/index.html
+    lastmodfile: app/pages/index.js
     changefreq: weekly
     priority: 1.0
     links:
