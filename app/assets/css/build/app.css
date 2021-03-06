@@ -1,0 +1,110 @@
+*, html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1.4;
+  color: white;
+  background-color: #0d0e0f;
+  text-align: center;
+}
+
+a {
+  color: #65c3ba;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 3rem 0 1rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+p img {
+  height: 24px;
+  width: 24px;
+  margin: 0 5px 0 3px;
+  position: relative;
+  top: 4px;
+}
+
+div.lang {
+  color: white;
+  padding-top: 1rem;
+}
+
+div.lang a {
+  text-decoration: none;
+  outline: none;
+  margin: 0 0.5rem;
+}
+
+div.lang a.active {
+  text-decoration: underline;
+}
+
+div.main {
+  margin: 0 auto;
+  padding: 1rem 0 0;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 600px) {
+  div.main {
+    padding: 1rem 0.6rem 0;
+  }
+}
+footer {
+  padding: 3rem 0 2rem;
+  font-size: 90%;
+  color: #888;
+}
+
+footer img {
+  height: 30px;
+}
+
+div.logo {
+  padding-top: 3rem;
+}
+
+div.logo img {
+  height: 240px;
+}
+
+div.tagline h1 {
+  text-shadow: 1px 1px #555;
+  font-weight: 400;
+  font-size: 36px;
+  font-style: italic;
+  padding: 1.6rem 0;
+}
+
+div.info {
+  text-align: left;
+}
+
+.tag {
+  background: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+  margin: 5px;
+  padding: 6px;
+  font-size: 80%;
+  line-height: 2.5;
+  white-space: nowrap;
+}
+
+a.tag {
+  border: 1px solid #65c3ba;
+}
+
+/*# sourceMappingURL=app.css.map */

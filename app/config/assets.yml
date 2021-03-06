@@ -1,0 +1,3 @@
+bundle:
+  css:
+    - /css/build/app.css

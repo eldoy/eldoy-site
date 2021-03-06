@@ -4,7 +4,19 @@
   "description": "eldoy.com web site",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon -e js,mjs,json,yml -i dist -x waveorb serve"
+    "dev": "npm run clear:css && npm run build:css && concurrently -n 🔥,💗 \"npm run watch:app\" \"npm run watch:css\"",
+    "watch:app": "nodemon -e js,mjs,json,yml,css,md -i dist -x waveorb serve",
+    "watch:css": "sass --watch app/assets/scss/app.scss app/assets/css/build/app.css",
+    "build:css": "sass app/assets/scss/app.scss app/assets/css/build/app.css",
+    "build:css:min": "sass --style compressed --no-source-map app/assets/scss/app.scss app/assets/css/build/app.css",
+    "clear:css": "rm -rf app/assets/css/build",
+    "build": "npm run clear:css && npm run build:css:min && waveorb build",
+    "test": "jest --watch",
+    "generate": "waveorb generate",
+    "migrate": "waveorb migrate",
+    "update": "waveorb update",
+    "deploy": "waveorb deploy",
+    "serve": "waveorb serve"
   },
   "repository": {
     "type": "git",
@@ -15,8 +27,12 @@
   "bugs": {
     "url": "https://github.com/eldoy/eldoy-site/issues"
   },
-  "homepage": "https://github.com/eldoy/eldoy-site#readme",
+  "homepage": "https://github.com/eldoy/eldoy-site",
+  "dependencies": {
+    "sass": "^1.32.8",
+    "waveorb": "^0.13.22"
+  },
   "devDependencies": {
-    "conficurse": "^0.1.0"
+    "concurrently": "^6.0.0"
   }
 }

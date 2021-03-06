@@ -1,0 +1,4 @@
+{
+  "proxy": "http://localhost:32000",
+  "domains": "eldoy.com www.eldoy.com"
+}
