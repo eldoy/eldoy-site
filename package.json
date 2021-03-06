@@ -10,7 +10,7 @@
     "build:css": "sass app/assets/scss/app.scss app/assets/css/build/app.css",
     "build:css:min": "sass --style compressed --no-source-map app/assets/scss/app.scss app/assets/css/build/app.css",
     "clear:css": "rm -rf app/assets/css/build",
-    "build": "npm run clear:css && npm run build:css:min && waveorb build",
+    "build": "npm run clear:css && npm run build:css:min && waveorb sitemap &&waveorb build",
     "test": "jest --watch",
     "generate": "waveorb generate",
     "migrate": "waveorb migrate",
