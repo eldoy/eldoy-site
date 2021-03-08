@@ -1,5 +1,6 @@
 {
   "domains": "eldoy.com www.eldoy.com",
   "sitemap": true,
-  "ping": true
+  "ping": true,
+  "basicauth": "admin:test54"
 }
