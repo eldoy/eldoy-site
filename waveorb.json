@@ -1,4 +1,6 @@
 {
   "proxy": "http://localhost:32000",
-  "domains": "eldoy.com www.eldoy.com"
+  "domains": "eldoy.com www.eldoy.com",
+  "sitemap": true,
+  "ping": true
 }
