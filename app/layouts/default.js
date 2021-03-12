@@ -10,6 +10,7 @@ module.exports = async function($) {
         <link rel="icon" type="image/png" href="/img/favicon.png">
         ${$.script('/bundle.js')}
         ${$.style('/bundle.css')}
+        <script async defer data-domain="eldoy.com" src="https://plausible.io/js/plausible.js"></script>
       </head>
       <body>
         <script>document.cookie='lang=;expires=Thu, 01 Jan 1970 00:00:01 GMT;'</script>
