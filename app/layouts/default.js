@@ -8,7 +8,6 @@ module.exports = async function($) {
         <meta name="description" content="${$.page.description}">
         <title>${$.page.title || '♥'} - Eldøy Projects</title>
         <link rel="icon" type="image/png" href="/img/favicon.png">
-        ${$.script('/bundle.js')}
         ${$.style('/bundle.css')}
         <script async defer data-domain="eldoy.com" src="https://plausible.io/js/plausible.js"></script>
       </head>
