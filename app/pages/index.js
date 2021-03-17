@@ -68,9 +68,6 @@ module.exports = async function($) {
         ${ $.t('pages.index.get_in_touch') }
       </p>
     </div>
-    <p>
-      <a id="a" href=""></a>
-    </p>
     <script>
       setTimeout(() => {
         var m = atob('${email}')
