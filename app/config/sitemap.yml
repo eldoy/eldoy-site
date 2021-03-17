@@ -5,5 +5,5 @@ urls:
     changefreq: weekly
     priority: 1.0
     links:
-      - url: /en/
-        lang: en
+      - url: /no/
+        lang: no

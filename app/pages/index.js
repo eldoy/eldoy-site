@@ -2,11 +2,12 @@ const tools = [
   ['https://waveorb.com', 'Waveorb'],
   ['https://nodejs.org', 'NodeJS'],
   ['https://mongodb.com', 'MongoDB'],
-  ['https://github.com/google/leveldb', 'LevelDB'],
   ['https://reactjs.org', 'React'],
   ['https://vuejs.org', 'Vue'],
   ['https://www.ruby-lang.org', 'Ruby']
 ]
+
+const email = Buffer.from('vidar@eldoy.com').toString('base64')
 
 module.exports = async function($) {
   const tags = Object.keys($.app.locales[$.lang].tags)
@@ -63,9 +64,20 @@ module.exports = async function($) {
       <p>${ $.t('pages.index.about_eldoy_projects') }</p>
       <p>
         ${ $.t('pages.index.send_email_to') }
-        <a class="email" href="mailto:vidar@eldoy.com">vidar@eldoy.com</a>
+        <a id="a" href=""></a>
         ${ $.t('pages.index.get_in_touch') }
       </p>
     </div>
+    <p>
+      <a id="a" href=""></a>
+    </p>
+    <script>
+      setTimeout(() => {
+        var m = atob('${email}')
+        var a = document.querySelector('#a')
+        a.href = 'mailto:' + m
+        a.textContent = m
+      }, 5)
+    </script>
   `
 }

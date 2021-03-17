@@ -14,9 +14,9 @@ module.exports = async function($) {
       <body>
         <script>document.cookie='lang=;expires=Thu, 01 Jan 1970 00:00:01 GMT;'</script>
         <div class="lang">
-          <a href="${$.link(`no@${$.page.name}`)}">NO</a>
-          <span class="split">/</span>
           <a href="${$.link(`en@${$.page.name}`)}">EN</a>
+          <span class="split">/</span>
+          <a href="${$.link(`no@${$.page.name}`)}">NO</a>
         </div>
         <script>
           document.querySelectorAll('.lang a').forEach(function(a) {
