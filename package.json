@@ -32,9 +32,9 @@
   "homepage": "https://github.com/eldoy/eldoy-site",
   "dependencies": {
     "sass": "^1.32.8",
-    "waveorb": "^0.14.9"
+    "waveorb": "^0.14.10"
   },
   "devDependencies": {
-    "concurrently": "^6.0.0"
+    "concurrently": "^6.0.1"
   }
 }
