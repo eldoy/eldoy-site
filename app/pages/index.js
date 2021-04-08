@@ -7,7 +7,7 @@ const tools = [
   ['https://www.ruby-lang.org', 'Ruby']
 ]
 
-const email = Buffer.from('vidar@eldoy.com').toString('base64')
+const email = Buffer.from('mail@eldoy.com').toString('base64')
 
 module.exports = async function($) {
   const tags = Object.keys($.app.locales[$.lang].tags)
