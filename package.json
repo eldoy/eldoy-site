@@ -31,7 +31,7 @@
   "homepage": "https://github.com/eldoy/eldoy-site",
   "dependencies": {
     "sass": "^1.32.8",
-    "waveorb": "^0.14.10"
+    "waveorb": "^0.14.11"
   },
   "devDependencies": {
     "concurrently": "^6.0.1"
